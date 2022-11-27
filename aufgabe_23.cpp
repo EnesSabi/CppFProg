@@ -21,5 +21,6 @@ int main()
     a=3;
     b=2; 
     a*=b+=a<<=a+b;  cout << "a= "<< a << ", b= " << b << endl;
-        return 0;
+    system("pause");
+    return 0;
 }

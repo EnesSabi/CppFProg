@@ -10,6 +10,9 @@ int main(int argc, char const *argv[])
     int a = 5;
     int radius;
     
+    
+    cout << "Please insert radius of the sphere" << endl;
+    cin >> radius;
     cout << PI << endl;
     cout << "------" << endl;
     cout << a << endl;
@@ -18,9 +21,8 @@ int main(int argc, char const *argv[])
     cout << "------" << endl;
     cout << CUB(a) << endl;
     cout << "------" << endl;
-    cout << "Please insert radius of the sphere" << endl;
-    cin >> radius;
     cout << 4/3*PI*CUB(radius) << endl;
     cout << "------" << endl;
+    system("pause");
     return 0;
 }
